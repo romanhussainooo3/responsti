@@ -1,0 +1,688 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: sans-serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col6{
+    width: 50%;
+    float: left;
+}
+.headder{
+    width: 100%;
+    float: left;
+    border-bottom: 2px solid #d5cece;
+    padding: 20px 0px 20px 0px;
+}
+.headder .menu{
+    display: block;
+    width: 100%;
+     text-align: right;
+     
+ }
+ .headder .menu li {
+     list-style: none;
+     display: inline-block;                                              
+ }
+ .headder .menu li a{
+     display: block;
+     margin: 10px 0px 0px 20px;
+     font-size: 16px;
+     font-weight: 500;
+     color: #0F2656;
+ 
+ }
+ .headder .menu li a:hover{
+     color: #008AFF;
+     border-bottom: 1px solid #008AFF;
+ }
+ .focus{
+    width: 100%;
+    float: left;
+    padding: 20px 0px;
+}
+.col12{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.col12 h1{
+    font-size: 47px;
+    line-height: 1.2em;
+    font-weight: 600;
+}
+.col12 h1 span{
+    color: rgb(75, 125, 234);
+}
+.col12 p{
+    display: block;
+    font-size: 16px;
+    line-height: 1.4em;
+}
+.col12 img{
+    width: 70%;
+}
+.login{
+    width: 100%;
+    float: left;
+    padding: 20px 0px 0px;
+}
+.form{
+    width: 100%;
+    float: left;
+    text-align: right;
+    margin: 0px 15px 5px 0px;
+}
+.form h1{
+    width: 100%;
+    font-size: 45px;
+    line-height: 1.2em;
+    color: rgb(210, 72, 54);
+    margin: 0px -10px
+}
+.form p{
+    display: block;
+    width: 100%;
+    font-size: 17px;
+        margin: 0px -10px
+}
+.formin{
+    width: 100%;
+    float: left;
+    margin: 0px 10px;
+}
+.formin h1{
+    width: 100%;
+    font-size: 45px;
+    line-height: 1.2em;
+}
+.banner{
+    width: 100%;
+    float: left;
+   
+}
+.col4{
+    width: 33.33%;
+    float: left;
+}
+.feature{
+    width: 68%;
+    float: left;
+    padding: 30px 40px;
+    margin: 0px 95px;
+}
+.inner-feature{
+    width: 77%;
+    float: left;
+    padding: 60px 30px;
+    margin: 0px 115px;
+
+}
+.inner-feature img{
+    width: 88% ;
+   height: 170px;
+   margin: 0px;
+}
+.inner-feature h4{
+    font-size: 20px;
+    line-height: 1.2em;
+    color: #0f2656;
+    margin: 0px 17px;
+}
+.inner-feature p{
+    font-size: 13px;
+    line-height: 1.7em;
+    color: #0f2656;
+    margin: 0px 17px;
+}
+.bg1{
+background: #FDEBED;
+}
+.bg2{
+background: #EBF9F4;
+}
+.bg3{
+background: #FFF7E8;
+}
+.fotter{
+  width: 100%;
+  float: left;
+  background: #008AFF;
+    text-align: center;
+    padding: 20px 0px;
+}
+.fotter p{
+    font-size: 15px;
+}
+.fotter a{
+    font-size: 18px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+@media (Min-width:279px) and (max-width:319px){
+    .container{
+        width: 90%;
+        margin: 0px  auto;
+    }
+    .row{
+        width: 100%;
+        float: left;
+    }
+    .col12{
+        width: 100%;
+        float: left;
+    }
+    .col6{
+        width: 100%;
+        float: left;
+    }
+    .col4{
+        width: 100%;
+        float: left;
+    }
+    .logo{
+        display: block;
+        text-align: center;
+    }
+    .headder .menu{
+        display: block;
+        text-align: center;
+    }
+    .headder .menu li a{
+        font-size: 13px;
+        margin: 0px 7px 0px 0px;
+    }
+    .focus {
+        padding: 15px 0px;
+    }
+    .col12 h1 {
+       font-size: 26px;
+    }
+    .col12 p {
+       font-size: 12px;
+    }
+    .login{
+        padding: 10px 0px;
+    }
+    .form h1 {
+      
+        font-size: 27px;
+        text-align: center;
+    }
+    .form p {
+        font-size: 12px;
+        line-height: 1.4em;
+        text-align: center;
+    }
+    .formin h1 {
+        font-size: 27px;
+        text-align: center;
+    }
+    .feature {
+        width: 97%;
+        padding: 20px 0px 20px;
+        margin: 0px ;
+    }
+    .inner-feature {
+        padding: 20px 30px;
+        margin: 0px 5px 15px;
+    }
+    .inner-feature h4 {
+        font-size: 15px;
+        margin: 0px 10px;
+    }
+    .inner-feature p {
+        font-size: 10px;
+        margin: 0px 10px;
+    }
+    .fotter{
+        padding: 8px 0px;
+    }
+    .footer p {
+        font-size: 10px;
+    }
+    .fotter a{
+        font-size: 14px;
+    }
+
+} 
+@media (Min-width:320px) and (max-width:480px){
+    .container{
+        width: 90%;
+        margin: 0px  auto;
+    }
+    .row{
+        width: 100%;
+        float: left;
+    }
+    .col12{
+        width: 100%;
+        float: left;
+    }
+    .col6{
+        width: 100%;
+        float: left;
+    }
+    .col4{
+        width: 100%;
+        float: left;
+    }
+    .logo{
+        display: block;
+        text-align: center;
+    }
+    .headder .menu{
+        display: block;
+        text-align: center;
+    }
+    .headder .menu li a{
+        font-size: 13px;
+        margin: 0px 10px 0px 0px;
+    }
+    .focus {
+        padding: 15px 0px;
+    }
+    .col12 h1 {
+       font-size: 27px;
+    }
+    .col12 p {
+       font-size: 12px;
+    }
+    .login{
+        padding: 10px 0px;
+    }
+    .form h1 {
+      
+        font-size: 35px;
+        text-align: center;
+    }
+    .form p {
+        font-size: 12px;
+        line-height: 1.4em;
+        text-align: center;
+    }
+    .formin h1 {
+        font-size: 27px;
+        text-align: center;
+    }
+    .feature {
+        width: 97%;
+        padding: 20px 0px 20px;
+        margin: 0px;
+    }
+    .inner-feature {
+        padding: 50px 30px;
+        margin: 0px 10px 15px;
+    }
+    .inner-feature h4 {
+        font-size: 15px;
+        margin: 0px 10px;
+    }
+    .inner-feature p {
+        font-size: 11px;
+        margin: 0px 10px;
+    }
+    .fotter{
+        padding: 10px 0px;
+    }
+    .footer p {
+        font-size: 10px;
+    }
+    .fotter a{
+        font-size: 14px;
+    }
+}
+@media (min-width:481px) and (max-width:767px){
+   .container{
+        width: 90%;
+        margin: 0px  auto;
+    }
+    .row{
+        width: 100%;
+        float: left;
+    }
+    .col12{
+        width: 100%;
+        float: left;
+    }
+    .col6{
+        width: 100%;
+        float: left;
+    }
+    .col4{
+        width: 100%;
+        float: left;
+    }
+    .logo{
+        display: block;
+        text-align: center;
+    }
+    .headder .menu{
+        display: block;
+        text-align: center;
+    }
+    .headder .menu li a{
+        font-size: 14px;
+        margin: 0px 10px 0px 0px;
+    }
+    .focus {
+        padding: 15px 0px;
+    }
+    .col12 h1 {
+       font-size: 29px;
+    }
+    .col12 p {
+       font-size: 13px;
+    }
+    .login{
+        padding: 10px 0px;
+    }
+    .form h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+    .form p {
+        font-size: 13px;
+        line-height: 1.4em;
+        text-align: center;
+    }
+    .formin h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+    .feature {
+        width: 68%;
+        padding: 20px 0px 30px;
+        margin: 0px 50px;
+       
+    }
+    .inner-feature {
+        padding: 40px 8px;
+        margin: 0px 30px 15px;
+        width: 97%;
+    }
+    .inner-feature h4 {
+        font-size: 18px; 
+    }
+    .inner-feature p {
+        font-size: 15px;
+    }
+    .fotter a{
+        font-size: 17px;
+    }
+
+}
+ @media (min-width:768px) and (max-width:1024px){
+      .container{
+        width: 90%;
+        margin: 0px  auto;
+    }
+    .row{
+        width: 100%;
+        float: left;
+    }
+    .col12{
+        width: 100%;
+        float: left;
+    }
+    .col6{
+        width: 100%;
+        float: left;
+    }
+    .col4{
+        width: 100%;
+        float: left;
+    }
+    .logo{
+        display: block;
+        text-align: center;
+        width: ;
+    }
+    .headder .menu{
+        display: block;
+        text-align: center;
+    }
+    .headder .menu li a{
+        font-size: 16px;
+        margin: 0px 25px 0px 0px;
+    }
+    .focus {
+        padding: 15px 0px;
+    }
+    .col12 h1 {
+       font-size: 35px;
+    }
+    .col12 p {
+       font-size: 15px;
+    }
+    .login{
+        padding: 10px 0px;
+    }
+    .form h1 {
+        font-size: 37px;
+        text-align: center;
+    }
+    .form p {
+        font-size: 15px;
+        line-height: 1.4em;
+        text-align: center;
+    }
+    .formin h1 {
+        font-size: 37px;
+        text-align: center;
+    }
+    .feature {
+        width: 50%;
+        padding: 20px 0px 30px;
+       margin: 0px 30px;
+    }
+    .inner-feature {
+        padding: 60px 7px;
+        margin: 0px 168px 15px;
+        width: 94%;
+    }
+    .inner-feature h4 {
+        font-size: 18px; 
+    }
+    .inner-feature p {
+        font-size: 15px;
+    }
+    .fotter a{
+        font-size: 17px;
+    }
+}
+
+/*@media (min-width:279px) and (max-width:319px){
+
+} */ */
+/* Mobile Device */
+/*@media (min-width:320px) and (max-width:480px){
+    .containar{
+        width: 90%;
+        margin: 0px  auto;
+    }
+    .row{
+    width: 100%;
+    float: left;
+    }
+    .col12{
+        width: 100%;
+        float: left;
+    }
+    .col6{
+        width: 100%;
+        float: left;
+    }
+    .col4{
+        width: 100%;
+        float: left;
+}
+    .logo{
+        display: block;
+        text-align: center;
+    }
+    .header .menu li a{
+        margin: 10px 0px 0px 9px;
+    }
+    .banner {
+        padding: 30px 0px;
+    }
+    .banner h1 {
+       font-size: 27px;
+    }
+    .banner p {
+       font-size: 12px;
+    }
+    .successfully-left h1 {
+      
+        font-size: 35px;
+        text-align: center;
+    }
+    .successfully-left p {
+      
+        font-size: 12px;
+        
+        text-align: center;
+    }
+    .successfully-right h1 {
+        
+    
+        font-size: 27px;
+        
+        text-align: center;
+    }
+    .feature {
+        width: 97%;
+        padding: 20px 0px 30px;
+       
+    }
+    .inner-feature {
+        padding: 50px 30px;
+        margin: 0px 15px 15px;
+    }
+    .inner-feature h4 {
+        font-size: 18px; 
+    }
+    .inner-feature p {
+        font-size: 11px;
+     
+
+    }
+    .footer p {
+        font-size: 10px;
+    }
+}
+/* Mobile Device */
+
+/* Tab Mode */
+/* @media (min-width:481px) and (max-width:767px){
+    .containar{
+        width: 90%;
+        margin: 0px  auto;
+    }
+    .row{
+    width: 100%;
+    float: left;
+    }
+    .col12{
+        width: 100%;
+        float: left;
+    }
+    .col6{
+        width: 100%;
+        float: left;
+    }
+    .col4{
+        width: 100%;
+        float: left;
+}
+    .logo{
+        display: block;
+        text-align: center;
+    }
+    .header .menu {
+        display: block;
+       text-align: center;
+    }
+    .header .menu li a{
+        margin: 10px 0px 0px 20px;
+    }
+    .banner {
+        padding: 30px 0px;
+    }
+    .banner .banner-img {
+        width: 60%;
+    }
+    
+    .banner h1 {
+       font-size: 35px;
+    }
+    .banner p {
+        font-size: 14px;
+    }
+    .successfully-left h1 {
+      
+     
+    font-size: 45px;
+    text-align: center;
+    }
+    .successfully-left p {
+      
+        font-size: 14px;
+        
+        text-align: center;
+    }
+    .successfully-right h1 {
+        
+    
+        font-size: 40px;
+        
+        text-align: center;
+    }
+    .feature {
+        width: 97%;
+        padding: 20px 0px 30px;
+       
+    }
+    .inner-feature {
+        padding: 60px 30px;
+        margin: 0px 15px 15px;
+        width: 88%;
+    }
+    .inner-feature h4 {
+        font-size: 27px; 
+    }
+    .inner-feature p {
+        font-size: 18px;
+     
+
+    }
+    .footer p {
+        font-size: 14px;
+    }
+} */
